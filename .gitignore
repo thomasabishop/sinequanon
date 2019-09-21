@@ -1,4 +1,5 @@
-
+.DS_Store
+*.DS_Store
 # Logs
 logs
 *.log
@@ -186,4 +187,3 @@ public
 .dynamodb/
 
 
- .DS_Store
