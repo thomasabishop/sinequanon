@@ -1,7 +1,7 @@
 {
-  "name": "flexbox-toolkit",
+  "name": "sine-qua-non",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Webpack boilerplate engineered for simple and performant static websites.",
   "main": "index.js",
   "scripts": {
     "build:dev": "cross-env NODE_ENV=development webpack --mode development",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomasabishop/flexbox-toolkit.git"
+    "url": "git+https://github.com/thomasabishop/sinequanon.git"
   },
   "author": "Thomas Bishop",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thomasabishop/flexbox-toolkit/issues"
+    "url": "https://github.com/thomasabishop/sinequanon/issues"
   },
-  "homepage": "https://github.com/thomasabishop/flexbox-toolkit#readme",
+  "homepage": "https://github.com/thomasabishop/sinequanon#readme",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.3.0",
     "autoprefixer": "^9.6.1",
@@ -40,7 +40,7 @@
     "sass-loader": "^8.0.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.8",
+    "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.1",
     "webpack-merge": "^4.2.2"
   },

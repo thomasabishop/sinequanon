@@ -3,6 +3,8 @@
 # Sine Qua Non
 **A Webpack boilerplate engineered for simple and performant static websites.**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 I developed this boilerplate primarily for myself but thought it might be useful for others. The pretentious Latin name means **_without which, not_** which encapsulates the aspiration to provide all the necessities of a JS-based static website build.
 
 _Corrections, constructive criticism, suggestions, pull requests all very much welcome._
