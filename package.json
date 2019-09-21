@@ -1,0 +1,50 @@
+{
+  "name": "sine-qua-non",
+  "version": "1.0.0",
+  "description": "A Webpack boilerplate engineered for simple and performant static websites.",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build:prod": "cross-env NODE_ENV=production webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasabishop/sinequanon.git"
+  },
+  "author": "Thomas Bishop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomasabishop/sinequanon/issues"
+  },
+  "homepage": "https://github.com/thomasabishop/sinequanon#readme",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.6.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "cross-env": "^5.2.1",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-partials-plugin": "^0.5.3",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-optipng": "^7.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "imagemin-webpack": "^5.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "normalise.scss": "^1.0.1"
+  }
+}
