@@ -46,7 +46,7 @@ _Corrections, constructive criticism, suggestions, pull requests all very much w
 
 ### Install
 ```
-git clone https://github.com/thomasabishop/quotient.git
+git clone https://github.com/thomasabishop/sinequanon.git
 cd /quotient
 npm install
 ```
