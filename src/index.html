@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title> 
+    <meta name="description" content="">
+
+    <style>/* inject: index.css */</style>
+    
+</head>
+<!--here is a comment-->
+<body>
+  <!-- partial:_nav.html -->
+  <nav class="navbar navbar-light bg-light p-3 ">
+    <h1 class=" navbar-brand h1">
+        <img inline src="./images/vectors/sqn-logo.svg" width="60" height="60" class="d-inline-block align-center pr-2">
+        Sine Qua Non
+    </h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggled_menu"
+    >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="toggled_menu">
+        <ul class="navbar nav justify-content-end mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Build</a>
+            </li>
+    </ul>
+
+    </div>
+</nav>
+
+  <!-- partial -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col no-gutters">
+                <div class="jumbotron jumbotron-fluid mt-4">
+                    <div class="container">
+                        <h1 class="display-4">Welcome to Sine Qua Non</h1>
+                        <p class="lead">A performant Webpack boilerplate for modern Javascript development</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+                <picture>
+                    <source srcset="images/webp/arch.webp" type="image/webp">
+                    <source srcset="assets/images/arch.jpg" type="image/jpeg">
+                    <img class="img-fluid" src="images/rasters/arch.jpg" loading="lazy">
+                </picture>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+                <picture>
+                    <source srcset="images/webp/arch.webp" type="image/webp">
+                    <source srcset="assets/images/arch.jpg" type="image/jpeg" >
+                    <img class="img-fluid" src="images/rasters/arch.jpg" loading="lazy">
+                </picture>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-3">
+                <picture>
+                    <source srcset="images/webp/arch.webp" type="image/webp">
+                    <source srcset="assets/images/arch.jpg" type="image/jpeg">
+                    <img class="img-fluid" src="images/rasters/arch.jpg" loading="lazy">
+                </picture>
+            </div>
+        </div>
+    </div>
+
+    <script> /* inject:index.js */ </script>
+</body>
+</html>
