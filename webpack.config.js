@@ -35,7 +35,7 @@ module.exports = {
       // Inject custom CSS and/or SCSS (from /src/styles.css) into the DOM
       {
         test: /\.(scss|css)$/,
-        use: ['style-loader', 'css-loader'],
+        use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
       },
     ],
   },
