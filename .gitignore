@@ -1,0 +1,5 @@
+dist/
+old-readme.md
+
+.DS_Store 
+node_modules
