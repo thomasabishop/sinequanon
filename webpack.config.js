@@ -32,9 +32,9 @@ module.exports = {
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
-      // Inject custom CSS (from /src/styles.css) into the DOM
+      // Inject custom CSS and/or SCSS (from /src/styles.css) into the DOM
       {
-        test: /\.css$/,
+        test: /\.(scss|css)$/,
         use: ['style-loader', 'css-loader'],
       },
     ],
