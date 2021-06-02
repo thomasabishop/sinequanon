@@ -17,12 +17,12 @@ module.exports = {
     // Compile HTML from /src to /dist
     new HtmlWebpackPlugin({
       title: 'Sine Qua Non',
-      template: path.resolve(__dirname, './src/index.html'),
-      filename: 'index.html',
+      template: path.resolve(__dirname, './src/template.html'),
+      filename: 'index.html', // output index.html to /dist
     }),
     //  Purge the /dist dir before every new build
     new CleanWebpackPlugin(),
-    // Add 'update on save' when development server is running
+    // Ensure that 'update on save' only updates what has changed, not entire bundle
     new webpack.HotModuleReplacementPlugin(),
   ],
   module: {
@@ -36,6 +36,16 @@ module.exports = {
       {
         test: /\.(scss|css)$/,
         use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
+      },
+      // Images (using types not loaders)
+      {
+        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        type: 'asset/resource',
+      },
+      // Inline injection of fonts and vector images
+      {
+        test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
+        type: 'asset/inline',
       },
     ],
   },
