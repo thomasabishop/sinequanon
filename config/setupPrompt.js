@@ -1,13 +1,13 @@
-const path = require('path');
-const fs = require('fs');
-const chalk = require('chalk');
-const clear = require('clear');
-const figlet = require('figlet');
-const { prompt } = require('enquirer');
+const path = require('path')
+const fs = require('fs')
+const chalk = require('chalk')
+const clear = require('clear')
+const figlet = require('figlet')
+const { prompt } = require('enquirer')
 
 async function runSetup() {
-  clear();
-  console.log(chalk.blue(figlet.textSync('Sine Qua Non', {})));
+  clear()
+  console.log(chalk.blue(figlet.textSync('Sine Qua Non', {})))
 
   const userOptions = await prompt([
     {
@@ -59,7 +59,7 @@ async function runSetup() {
       message: 'Do you wish to use TypeScript?',
       choices: ['Yes', 'No'],
     },
-  ]);
+  ])
 }
 
-runSetup();
+runSetup()

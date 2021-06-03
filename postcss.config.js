@@ -1,8 +1,7 @@
-const purgecss = require('@fullhuman/postcss-purgecss');
-
-plugins: [
-  require('autoprefixer'),
-  purgecss({
-    content: ['./src/**/*.html'],
-  }),
-];
+module.exports = {
+  plugins: {
+    'postcss-preset-env': {
+      browsers: 'last 2 versions',
+    },
+  },
+}
