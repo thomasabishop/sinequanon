@@ -1,4 +1,5 @@
 ![alt text](src/images/sqn-logo-banner.svg)
+[![wakatime](https://wakatime.com/badge/github/thomasabishop/sinequanon.svg)](https://wakatime.com/badge/github/thomasabishop/sinequanon)
 
 # Sine Qua Non
 
