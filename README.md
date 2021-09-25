@@ -3,14 +3,20 @@
 
 # Sine Qua Non
 
-**A Webpack boilerplate for use as a foundation for static sites and applications**
+**A Webpack boilerplate for use as a foundation for frontend web applications**
 
 I developed this environment for building static websites and basic web applications with Webpack 5.
 
-The pretentious Latin name means **_without which, not_**. This encapsulates my aspiration to provide all the default tooling I need in a single repository.
+The pretentious Latin name means **_without which, not_**. This encapsulates my goal to provide the basic level of tooling I need for most small projects in a single repository.
 
-## Default features
+## Main features
 
-## Optional features
-
-## Configuration wizard
+- Local development server (`npm start`)
+- Optimised config for production (`npm run build`)
+- Babel JavaScript transpilation
+- CSS bundling
+- SCSS transpilation and bundling
+- CSS autoprefixing
+- Purge unused CSS
+- Inline injection of fonts and SVGs
+- Image loading (but no compression, sizing or optimisation as such).
