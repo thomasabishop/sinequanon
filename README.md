@@ -20,3 +20,4 @@ The pretentious Latin name means **_without which, not_**. This encapsulates my 
 - Purge unused CSS
 - Inline injection of fonts and SVGs
 - Image loading (but no compression, sizing or optimisation as such).
+- ESLint on save
