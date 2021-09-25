@@ -13,10 +13,9 @@ module.exports = merge(common, {
   // Use webpack-dev-server for local server
   devServer: {
     historyApiFallback: true,
-    contentBase: paths.build,
+    static: paths.build,
     open: true,
     compress: true,
-    hot: true,
     port: 8080,
   },
 
@@ -41,9 +40,5 @@ module.exports = merge(common, {
       },
     ],
   },
-
-  plugins: [
-    // 'update on save' only updates what has changed, not entire bundle
-    new webpack.HotModuleReplacementPlugin(),
-  ],
+  plugins: [],
 })
