@@ -7,17 +7,32 @@
     "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
     "lint": "eslint . src config || true",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Thomas Bishop",
   "license": "ISC",
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "shared"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js",
+      "^config$": "<rootDir>/configs/app-config.js"
+    }
+  },
   "devDependencies": {
     "@babel/core": "^7.14.0",
     "@babel/preset-env": "^7.14.0",
     "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.2.6",
     "babel-loader": "^8.2.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "clean-webpack-plugin": "*",
     "copy-webpack-plugin": "^9.0.0",
     "cross-env": "^7.0.3",
@@ -30,6 +45,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-webpack-plugin": "^2.5.4",
     "html-webpack-plugin": "^5.3.1",
+    "jest": "^27.2.2",
     "mini-css-extract-plugin": "^1.6.0",
     "node-sass": "^6.0.0",
     "postcss-loader": "^5.3.0",
