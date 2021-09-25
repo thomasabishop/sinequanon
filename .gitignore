@@ -3,3 +3,5 @@ old-readme.md
 
 .DS_Store 
 node_modules
+.prettierrc
+.prettier.json
