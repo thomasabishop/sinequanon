@@ -23,3 +23,6 @@ The grandiose name means **_without which, not_**. This encapsulates my goal to 
 - Image loading (but no compression, sizing or optimisation as such).
 - [ESLint](https://github.com/eslint/eslint) on save
 - [Jest](https://github.com/facebook/jest) for unit testing.
+
+## To do
+- Add Node script that runs on install so that the site config settings can be set on via the terminal rather doing it manually.
