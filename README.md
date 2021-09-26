@@ -1,13 +1,14 @@
 ![alt text](src/images/sqn-logo-banner.svg)
 [![wakatime](https://wakatime.com/badge/github/thomasabishop/sinequanon.svg)](https://wakatime.com/badge/github/thomasabishop/sinequanon)
-
+[![Tests](https://github.com/thomasabishop/sinequanon/actions/workflows/run-tests.yml/badge.svg)](https://github.com/thomasabishop/sinequanon/actions/workflows/run-tests.yml)
+[![Build](https://github.com/thomasabishop/sinequanon/actions/workflows/run-build.yml/badge.svg)](https://github.com/thomasabishop/sinequanon/actions/workflows/run-build.yml)
 # Sine Qua Non
 
 **A Webpack boilerplate for use as a foundation for frontend web applications**
 
 I developed this environment for building static websites and basic web applications with Webpack 5.
 
-The pretentious Latin name means **_without which, not_**. This encapsulates my goal to provide the basic level of tooling I need for most small projects in a single repository.
+The grandiose name means **_without which, not_**. This encapsulates my goal to provide the basic level of tooling I need for most small projects in a single repository.
 
 ## Main features
 
